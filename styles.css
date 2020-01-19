@@ -42,6 +42,7 @@
   .nav .name {
     display: none;
   }
+
   .nav li {
     padding: 5px 10px 10px 10px;
   }
@@ -159,6 +160,35 @@
     clear: both;
   }
   
+  .main-image {
+      padding: 5px;
+      margin-top: 10px;
+      border: solid 2px white;
+  }
+
+  .resume-title {
+      background: white;
+      width: 40%;
+      padding: 5px;
+      margin: auto;
+      border-radius: 20px;
+      margin-bottom: 20px;
+  }
+
+  .section-title {
+      width: 20%;
+      margin: auto;
+      margin-top: 20px;
+      padding: 5px;
+      border-radius: 20px;
+      color: white;
+  }
+
+  .qualifications {
+      list-style: none;
+      text-align: center;
+  }
+
   /* Styles for larger screens */
   @media screen and (min-width: 720px) {
     
